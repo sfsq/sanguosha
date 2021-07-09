@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>三国杀Skin</title>
+		<link rel="stylesheet" type="text/css" href="css/skin.css" />
+	</head>
+	<body>
+
+		<div class="skinImg">
+			<div class="wujiangInformation">
+				<h2 id="wujiangName">当前武将名称：</h2>
+				<h2 id="wujiangId">当前武将编号：</h2>
+				<h2 id="skinId">当前皮肤编号：</h2>
+			</div>
+			<div class="search">
+				<div class="search1">
+					<input type="text" id="searchInput1" placeholder="请输入武将编号" /><button id="searchButton1"
+						onclick="searchWujiangId()">搜索</button>
+				</div>
+				<div class="search2">
+					<input type="text" id="searchInput2" placeholder="请输入武将名称" /><button id="searchButton2"
+						onclick="searchSkinId()">搜索</button>
+				</div>
+				<div class="search3">
+					请选择一个武将：
+					<select id="wujiangSelect" onchange="changeWujiangId()">
+						<option value="0">未选择</option>
+					</select>
+				</div>
+
+
+			</div>
+			<div class="wujiangImg">
+				<a id="wujiangSkin" download="">
+					<img id="skin" onerror="this.src='img/default.png'" src="img/default.png"></a>
+			</div>
+		</div>
+		<div class="choose">
+			<button type="button" onclick="prevWujiang()">上个武将</button>
+			<button type="button" onclick="nextWujiang()">下个武将</button>
+			<button type="button" onclick="prevSkin()">上个皮肤</button>
+			<button type="button" onclick="nextSkin()">下个皮肤</button>
+
+		</div>
+
+	</body>
+	<script src="js/skin.js" type="text/javascript" charset="utf-8"></script>
+</html>
