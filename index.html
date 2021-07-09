@@ -4,10 +4,18 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<title>三国杀Skin</title>
+		<script type="text/javascript">
+			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+				// 移动端
+			} else {
+				// PC
+				window.stop ? window.stop() : document.execCommand("Stop");
+				alert('请使用移动端访问');
+			}
+		</script>
 		<link rel="stylesheet" type="text/css" href="css/skin.css" />
 	</head>
 	<body>
-
 		<div class="skinImg">
 			<div class="wujiangInformation">
 				<h2 id="wujiangName">当前武将名称：</h2>
