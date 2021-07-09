@@ -1,0 +1,148 @@
+* {
+	-webkit-touch-callout: none;
+	/*系统默认菜单被禁用*/
+	-webkit-user-select: none;
+	/*webkit浏览器*/
+	-khtml-user-select: none;
+	/*早期浏览器*/
+	-moz-user-select: none;
+	/*火狐*/
+	-ms-user-select: none;
+	/*IE10*/
+	user-select: none;
+}
+
+input,
+textarea {
+	-webkit-user-select: auto;
+	/*webkit浏览器*/
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+
+
+.skinImg {
+	width: 100%;
+	height: 570px;
+	/* 			background-color: #55ff00; */
+	margin: 0 auto;
+
+}
+
+#skin {
+	height: 95%;
+	margin-left: 5%;
+	max-width: 95%;
+}
+
+.wujiangInformation {
+	width: 95%;
+	height: 25%;
+	/* 	background-color: aqua; */
+	margin: 0 auto;
+	text-align: left;
+
+
+}
+
+.wujiangImg {
+	width: 98%;
+	height: 45%;
+	/* 				background-color: #55aaff; */
+	margin: 0 auto;
+
+}
+
+.search {
+	width: 95%;
+	height: 25%;
+	/* 		background-color: #aa007f; */
+	margin: 0 auto;
+
+}
+
+.search input {
+	width: 70%;
+	height: 80%;
+	/* 	margin: 1%; */
+	font-size: 20px;
+	border-radius: 15px;
+	outline: none;
+	text-align: center;
+	border: 1px solid black;
+
+}
+
+.search button {
+	width: 20%;
+	height: 90%;
+	margin: 1%;
+	outline: none;
+	border-radius: 15px;
+	font-size: 15px;
+	border: 1px solid black;
+	color: #ffffff;
+	background-color: #007AFF;
+
+}
+
+.search1 {
+	width: 98%;
+	height: 30%;
+	/* 	background-color: #8A6DE9; */
+	margin: 1%;
+}
+
+.search2 {
+	width: 98%;
+	height: 32%;
+	/* 			background-color: #555500; */
+	margin: 1%;
+}
+
+.search3 {
+	width: 98%;
+	height: 32%;
+	/* 			background-color: #fff3d3; */
+	margin: 1%;
+	font-size: 23px;
+	text-align: left;
+	padding: 1px;
+}
+
+.search3 select {
+	width: 35%;
+	height: 90%;
+	font-size: 20px;
+	border-radius: 15px;
+	outline: none;
+	color: #0062CC;
+}
+
+
+.choose {
+	width: 100%;
+	height: 55px;
+	/* 		background-color: #ffff7f; */
+	text-align: left;
+	position: fixed;
+	bottom: 1%;
+	left: 1%;
+	padding: 1%;
+
+
+
+}
+
+.choose button {
+	height: 100%;
+	width: 22%;
+	margin-left: 1%;
+	font-size: 15px;
+	border-radius: 15px;
+	outline: none;
+	color: #ffffff;
+	border: 1px solid black;
+	background-color: #ff790c;
+}
